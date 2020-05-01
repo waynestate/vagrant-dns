@@ -20,6 +20,8 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "daemons"
   gem.add_dependency "rubydns", '~> 2.0.0'
+  gem.add_dependency "async", "~>1.24.0"
+  gem.add_dependency "async-io", "~>1.27.0"
   gem.add_dependency "public_suffix"
 
   gem.add_development_dependency 'rspec'
